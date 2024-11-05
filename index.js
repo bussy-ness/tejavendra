@@ -14,16 +14,3 @@ function type() {
 }
 
 type(); // Start typing
-document.getElementById("submitButton").addEventListener("click", function(event) {
-    event.preventDefault(); // Prevent actual form submission
-
-    const owl = document.getElementById("owlImage");
-    owl.classList.add("fly"); // Add flying effect class
-
-    // Show "Thank you" message after animation
-    setTimeout(() => {
-        owl.classList.remove("fly"); // Reset for future use
-        document.getElementById("contactForm").reset(); // Clear the form
-        
-    }, 1500); // Adjust time as needed to match the animation duration
-});
