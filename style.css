@@ -409,20 +409,8 @@ button:hover {
 }
 
 
-#owlImage {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 14rem; 
-    transition: transform 1.5s ease-out;
-    opacity: 0;
-}
 
-#owlImage.fly {
-    opacity: 1; 
-    transform: translate(200%, -200%) rotate(360deg) scale(2); 
-}
+
 #submitButton{
     border-radius: 10px;
     background: url(images/harry\ potter\ and\ owl.jpeg);
